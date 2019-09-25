@@ -1,0 +1,29 @@
+<plugin
+		id="com.vp.plugin.sample.ArchiMateDiagramShowInterfaceCaption"
+		name="ArchiMate Show Interface Caption"
+		description="ArchiMate Show Interface Caption"
+		provider="Visual Paradigm"
+		class="com.vp.plugin.sample.ArchiMateDiagramShowInterfaceCaptionPlugin.ArchiMateDiagramShowInterfaceCaptionPlugin">
+	
+	<actionSets>
+  	<actionSet id="com.vp.plugin.sample.ArchiMateDiagramShowInterfaceCaptionPlugin.actionset1">
+			<toolbar
+					id="com.vp.plugin.sample.ArchiMateDiagramShowInterfaceCaptionPlugin.actionset1.toolbar1"
+					orientation="north"
+					index="last"/>
+			
+			<action
+					id="com.vp.plugin.sample.ArchiMateDiagramShowInterfaceCaptionPlugin.actionset1.ResetZOrderAction"
+					actionType="generalAction"
+      		        name="ArchiMate Show Interface Caption"
+					description="ArchiMate Show Interface Caption"
+					style="normal"
+					icon="icon/caption.png"
+					tooltip="ArchiMate Show Interface Caption"
+					toolbarPath="com.vp.plugin.sample.ArchiMateDiagramShowInterfaceCaptionPlugin.actionset1.toolbar1/#">
+				<actionController class="com.vp.plugin.sample.ArchiMateDiagramShowInterfaceCaptionPlugin.ArchiMateDiagramShowInterfaceCaptionAction"/>
+			</action>
+  	</actionSet>
+		
+	</actionSets>	
+</plugin>
